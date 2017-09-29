@@ -12,6 +12,7 @@ public class Recho {
 
         }
 
+        // treating remaining cases which do not work with the previous if block
         if(args.length == 2){
             System.out.print(args[1] + " " + args[0]);
         }
