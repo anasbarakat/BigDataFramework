@@ -33,6 +33,9 @@ map(k, v){
 reduce(k2, list(v2)){
     
     #the reduce function is the identity, we do not need the reducers in this particular case
+    # k2 and list(v2) already reprensent the column index and the elements in this column, 
+    # or multiple indexes of columns and corresponding columns elements if there are many lines for each mapper and then reducer
+    
     return (k2,list(v2))
 }
 ```
