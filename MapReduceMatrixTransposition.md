@@ -22,10 +22,12 @@ map(k, v){
 }
 ```
 
+```
 #Then, the values with the same key are shuffled, sorted and gathered according to the key values.
 #It means that the result is the key (which is the column index matrix) with all the values (elements of the matrix) 
 #which have the same key (i.e the same column index) 
 #Consequently, we obtain each column index with the elements in this column: the output is the transposed matrix. 
+```
 
 ```python
 reduce(k2, list(v2)){
