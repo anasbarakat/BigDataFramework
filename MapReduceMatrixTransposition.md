@@ -5,13 +5,15 @@
 ```python
 map(k, v){
     #k: the key which will represent here the number of the corresponding line of the input matrix
-    #v: the corresponding value to the key which will be the line corresponding to the line n°k, a list of comma separated values
+    #v: the corresponding value to the key which will be the line corresponding to the line n°k, 
+    #a list of comma separated values
     
     l = [] #empty list which will be the output of the map function 
     
     for(i in range(len(v)){
-      #we add to the list l the element v[i] of the line with its corresponding position i in the line k, i.e the column
-      #index of the elment v[i] in teh entire matrix given as input.
+      #we add to the list l the element v[i] of the line with its corresponding position i
+      #in the line k, i.e the column
+      #index of the elment v[i] in the entire matrix given as input.
       l = l + [[i,v[i]]]
     }
     
